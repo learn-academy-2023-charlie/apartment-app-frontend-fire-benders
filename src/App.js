@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react"
+import mockUsers from "./mockUsers.js"
+import mockApartments from "./mockApartments.js"
+import Header from "./components/Header.js"
+import ApartmentEdit from "./pages/ApartmentEdit.js"
+import ApartmentIndex from "./pages/ApartmentIndex.js"
+import ApartmentNew from "./pages/ApartmentNew.js"
+import ApartmentProtectedIndex from "./pages/ApartmentProtectedIndex.js"
+import ApartmentShow from "./pages/ApartmentShow.js"
+import home from "./pages/Home.js"
+import NotFound from "./pages/NotFound.js"
+import SignIn from "./pages/SignIn.js"
+import SignUp from "./pages/SignUp.js"
+import Footer from "./components/footer.js"
 
-function App() {
+const App = () => {
+  const [currentUser, setCurrentUser] = useState(mockUsers[0])
+  const [apartments, setApartments] = useState(mockApartments)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h3>Apartment App</h3>
+    </>
+  )
 }
 
-export default App;
