@@ -21,6 +21,7 @@ const App = () => {
     <>
       <Header />
       <h3>Apartment App</h3>
+      <Footer />
     </>
   )
 }
