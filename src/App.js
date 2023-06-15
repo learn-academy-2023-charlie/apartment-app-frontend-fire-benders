@@ -13,6 +13,8 @@ import NotFound from "./pages/NotFound.js"
 import SignIn from "./pages/SignIn.js"
 import SignUp from "./pages/SignUp.js"
 import Footer from "./components/Footer.js"
+import { BrowserRouter } from "react-router-dom"
+
 
 const App = () => {
   const [apartments, setApartments] = useState(mockApartments);

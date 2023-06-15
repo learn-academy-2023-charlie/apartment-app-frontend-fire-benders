@@ -15,8 +15,7 @@ describe("<NotFound />", () => {
             </BrowserRouter>,
         div
         )
-        const logo = screen.getByAltText("alt")
-        // expect(logo).toHaveAttribute("src", "https://i.imgur.com/ecTgKxR.jpg")
+        const logo = screen.getByAltText("Image of deadpool on 404 content not found page")
         expect(logo).toHaveAttribute("alt", "Image of deadpool on 404 content not found page")  
     })
 })
