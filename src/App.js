@@ -11,7 +11,7 @@ import home from "./pages/Home.js"
 import NotFound from "./pages/NotFound.js"
 import SignIn from "./pages/SignIn.js"
 import SignUp from "./pages/SignUp.js"
-import Footer from "./components/footer.js"
+import Footer from "./components/Footer.js"
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(mockUsers[0])
@@ -19,8 +19,11 @@ const App = () => {
 
   return (
     <>
+      <Header/>
       <h3>Apartment App</h3>
+    <Footer/>
     </>
   )
 }
 
+export default App

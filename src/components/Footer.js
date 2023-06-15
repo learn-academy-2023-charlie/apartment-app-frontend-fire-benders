@@ -1,10 +1,15 @@
 import React from "react"
-
-const Footer = () => {
-  return(
+import { Navbar,NavbarBrand } from "reactstrap";
+function Footer() {
+  return (
     <>
+      <div id="footer">
+        <Navbar className="my-2" color="info" fixed="bottom">
+
+        </Navbar>
+      </div>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
