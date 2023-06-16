@@ -14,6 +14,8 @@ import SignIn from "./pages/SignIn.js"
 import SignUp from "./pages/SignUp.js"
 import Footer from "./components/Footer.js"
 import { BrowserRouter } from "react-router-dom"
+import "./App.css";
+
 
 
 const App = () => {
@@ -24,7 +26,7 @@ const App = () => {
   return (
     <>
     <Header/>
-      <h3>Apartment App</h3>
+      <h3>🍄 Super Apartment Bros.</h3>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/apartmentedit" element={<ApartmentEdit apartments={apartments} />} />

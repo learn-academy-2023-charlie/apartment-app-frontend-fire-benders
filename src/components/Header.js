@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <div id="header">
-        <Navbar className="my-2" color="info">
+        <Navbar className="my-2" color="transparent">
 
         </Navbar>
       </div>

@@ -11,7 +11,7 @@ const ApartmentIndex = ({ apartments }) => {
           <div>
             <br />
             <br />
-            <Card style={{ width: "14rem" }} key={index} className="eachCard">
+            <Card style={{ width: "20rem", height: "23rem" }} key={index} className="eachCard">
               <img
                 alt="profile of the apartment"
                 src={apartment.image}

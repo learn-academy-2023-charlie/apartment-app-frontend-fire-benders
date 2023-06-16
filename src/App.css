@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url("https://c.wallhere.com/photos/81/a1/simple_simple_background_minimalism_video_game_characters_white_logo_Paper_Mario_Mario_Bros-1381513.jpg!d");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card-columns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+}
+
+.eachCard {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  box-shadow: 9px 8px 23px 3px rgba(0, 0, 0, 0.76);
+}
+
+h3 {
+  text-align: center;
+  /* box-shadow: 9px 8px 23px 3px rgba(0, 0, 0, 0.76); */
+}
