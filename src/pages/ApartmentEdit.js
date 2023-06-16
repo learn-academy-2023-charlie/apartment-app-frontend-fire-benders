@@ -1,10 +1,7 @@
-import React from "react"
+import React from "react";
 
 const ApartmentEdit = () => {
-  return(
-    <>
-    </>
-  )
-}
+  return <></>;
+};
 
-export default ApartmentEdit
+export default ApartmentEdit;

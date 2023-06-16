@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import Home from "../pages/Home.js";
 
-describe("<Footer />", () => {
+describe("<SignIn />", () => {
   it("renders without crashing", () => {
     render(
       <BrowserRouter>
@@ -10,7 +10,7 @@ describe("<Footer />", () => {
       </BrowserRouter>
     );
 
-    const component = document.querySelector("#home");
+    const component = document.querySelector("#SignIn");
 
     expect(component).toBeInTheDocument;
   });
