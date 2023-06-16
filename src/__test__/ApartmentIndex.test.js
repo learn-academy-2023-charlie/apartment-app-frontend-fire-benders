@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "../components/Footer";
 
-describe("<Footer />", () => {
+describe("<ApartmentIndex />", () => {
   it("renders without crashing", () => {
     render(
       <BrowserRouter>
@@ -10,7 +10,7 @@ describe("<Footer />", () => {
       </BrowserRouter>
     );
 
-    const component = document.querySelector("#footer");
+    const component = document.querySelector("#apartmentindex");
 
     expect(component).toBeInTheDocument;
   });
