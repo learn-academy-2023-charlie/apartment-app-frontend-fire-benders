@@ -1,10 +1,7 @@
-import React from "react"
+import React from "react";
 
 const ApartmentIndex = () => {
-  return(
-    <>
-    </>
-  )
-}
+  return <></>;
+};
 
-export default ApartmentIndex
+export default ApartmentIndex;

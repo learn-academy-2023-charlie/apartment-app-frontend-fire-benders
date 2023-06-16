@@ -3,17 +3,15 @@ import { BrowserRouter } from "react-router-dom";
 import Home from "../pages/Home.js";
 
 describe("<SignIn />", () => {
-it("renders without crashing", () => {
+  it("renders without crashing", () => {
     render(
-    <BrowserRouter>
+      <BrowserRouter>
         <Home />
-    </BrowserRouter>
+      </BrowserRouter>
     );
 
-    const component = document.querySelector('#SignIn')
+    const component = document.querySelector("#SignIn");
 
-    expect(component).toBeInTheDocument
-
-    });
-
-}); 
+    expect(component).toBeInTheDocument;
+  });
+});
